@@ -200,7 +200,7 @@
 	</build>
 	 <distributionManagement>
               <repository>
-		  <id>1</id>
+		  <id>deployment</id>
 	          <name>Internal releases</name>
 		      <url>http://18.191.150.56:8081/repository/mavenhostedamar/</url>
 	      </repository>
