@@ -202,12 +202,12 @@
               <repository>
 		  <id>deployment</id>
 	          <name>Internal releases</name>
-		      <url>http://18.191.150.56:8081/repository/mavenhostedamar/</url>
+		      <url>http://18.221.146.190:8081/nexus/content/repositories/amarhosted/</url>
 	      </repository>
 	      <snapshotRepository>
 		  <id>deployment</id>
 		  <name>2</name>
-		  <url>http://18.191.150.56:8081/repository/mavenhostedsnapshort/</url>
+		  <url>http://18.221.146.190:8081/nexus/content/repositories/amarsnap/</url>
 	      </snapshotRepository>
 	 </distributionManagement>
 	<name>simple-web-app</name>
