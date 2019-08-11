@@ -202,12 +202,12 @@
               <repository>
 		  <id>1</id>
 	          <name>Internal releases</name>
-		      <url>http://13.126.216.158:8081/nexus/content/repositories/1</url>
+		      <url>http://52.15.130.114:8081/repository/mavenhostrelease//1</url>
 	      </repository>
 	      <snapshotRepository>
 		  <id>deployment</id>
 		  <name>2</name>
-		  <url>http://13.126.216.158:8081/nexus/content/repositories/2</url>
+		  <url>http://52.15.130.114:8081/repository/mavenhost-snapshopt//2</url>
 	      </snapshotRepository>
 	 </distributionManagement>
 	<name>simple-web-app</name>
