@@ -200,8 +200,8 @@
 	</build>
 	 <distributionManagement>
               <repository>
-		  <id>deployment</id>
-	          <name>Internal releases</name>
+		  <id>amar-hosted</id>
+	          <name>amar-hosted</name>
 		      <url>http://3.17.63.116:8081/nexus/content/repositories/amar-hosted/</url>
 	      </repository>
 	      <snapshotRepository>
