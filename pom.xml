@@ -202,7 +202,7 @@
               <repository>
 		  <id>amar-hosted</id>
 	          <name>amar-hosted</name>
-		      <url>http://3.17.63.116:8081/nexus/content/repositories/amar-hosted/</url>
+		      <url>http://18.222.143.52:8081/nexus/content/repositories/amar-hosted/</url>
 	      </repository>
 	      <snapshotRepository>
 		  <id>deployment</id>
