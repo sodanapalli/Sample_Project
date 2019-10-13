@@ -202,7 +202,7 @@
               <repository>
 		  <id>deployment</id>
 	          <name>Internal releases</name>
-		      <url>http://18.224.190.149:8081/nexus/content/repositories/amar-hosted/</url>
+		      <url>http://3.17.63.116:8081/nexus/content/repositories/amar-hosted/</url>
 	      </repository>
 	      <snapshotRepository>
 		  <id>deployment</id>
