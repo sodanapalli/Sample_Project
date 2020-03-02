@@ -200,14 +200,14 @@
 	</build>
 	 <distributionManagement>
               <repository>
-		  <id>amar-hosted</id>
-	          <name>amar-hosted</name>
-		      <url>http://18.222.174.161:8081/repository/amar-hosted//</url>
+		  <id>My-release</id>
+	          <name>My-release</name>
+		      <url>http://3.12.123.238:8081/repository/My-release/</url>
 	      </repository>
 	      <snapshotRepository>
-		  <id>deployment</id>
+		  <id>My-snapshot</id>
 		  <name>2</name>
-		  <url>http://18.222.174.161:8081/repository/amar-snapshot/</url>
+		  <url>http://3.12.123.238:8081/repository/My-snapshot/</url>
 	      </snapshotRepository>
 	 </distributionManagement>
 	<name>simple-web-app</name>
