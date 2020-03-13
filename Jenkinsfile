@@ -33,7 +33,8 @@ pipeline {
         }
         stage ('artifact uploder') {
             steps {
-                nexusPublisher nexusInstanceId: 'nexus3', nexusRepositoryId: 'My-release', packages: [[$class: 'MavenPackage', mavenAssetList: [[classifier: '', extension: '', filePath: '/var/lib/jenkins/workspace/pipelline 2/target/simple-web-app.war']], mavenCoordinate: [artifactId: 'simple-web-app', groupId: 'org.mitre', packaging: 'war', version: '2.65']]]
+                nexusPublisher nexusInstanceId: 'nexus3', nexusRepositoryId: 'My-release', packages: [[$class: 'MavenPackage', mavenAssetList: [[classifier: '', extension: '', filePath: '/var/lib/jenkins/workspace/pipelline/target/simple-web-app.war']], mavenCoordinate: [artifactId: 'simple-web-app', groupId: 'org.mitre', packaging: 'war', version: '2.65']]]
             }
         }
     }
+}
