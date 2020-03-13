@@ -11,10 +11,10 @@ pipeline {
         }
         stage ("sonar analasis") {
             environment {
-                scannerHome = tool 'sonarscanner'
+                scannerHome = tool 'sonar'
             }
             steps {
-                withSonarQubeEnv('sonarqube') {
+                withSonarQubeEnv('sonar') {
                     sh "${scannerHome}/bin/sonar-scanner"
                 }
             }
@@ -31,5 +31,9 @@ pipeline {
                 sh "mvn install"
             }
         }
+        stage ('artifact uploder') {
+            steps {
+                nexusPublisher nexusInstanceId: 'nexus3', nexusRepositoryId: 'My-release', packages: [[$class: 'MavenPackage', mavenAssetList: [[classifier: '', extension: '', filePath: '/var/lib/jenkins/workspace/pipelline/target/simple-web-app.war']], mavenCoordinate: [artifactId: 'simple-web-app', groupId: 'org.mitre', packaging: 'war', version: '2.65']]]
+            }
+        }
     }
-}
