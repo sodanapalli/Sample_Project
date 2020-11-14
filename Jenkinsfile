@@ -7,7 +7,7 @@ pipeline {
         stage ("scm") {
             steps {
                 checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '0c0f4b47-9da9-487d-85c8-85f3a82eb5ef', url: 'https://github.com/sodanapalli/Sample_Project.git']]])
-            }
+            }}
         }
         stage ("sonar analasis") {
             environment {
