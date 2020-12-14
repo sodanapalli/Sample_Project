@@ -200,12 +200,12 @@
 	</build>
 	 <distributionManagement>
               <repository>
-		  <id>My-release</id>
+		  <id>deployment</id>
 	          <name>My-release</name>
 		      <url>http://18.220.146.246:8081/repository/My-release/</url>
 	      </repository>
 	      <snapshotRepository>
-		  <id>My-snapshot</id>
+		  <iddeployment></id>
 		  <name>2</name>
 		  <url>http://18.220.146.246:8081/repository/My-Snapshot/</url>
 	      </snapshotRepository>
