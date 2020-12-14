@@ -205,7 +205,7 @@
 		      <url>http://18.220.146.246:8081/repository/My-release/</url>
 	      </repository>
 	      <snapshotRepository>
-		  <iddeployment></id>
+		  <id>deployment></id>
 		  <name>2</name>
 		  <url>http://18.220.146.246:8081/repository/My-Snapshot/</url>
 	      </snapshotRepository>
