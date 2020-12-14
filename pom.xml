@@ -202,12 +202,12 @@
               <repository>
 		  <id>My-release</id>
 	          <name>My-release</name>
-		      <url>http://3.128.180.195:8081/repository/My-release//</url>
+		      <url>http://18.220.146.246:8081/repository/My-release/</url>
 	      </repository>
 	      <snapshotRepository>
 		  <id>My-snapshot</id>
 		  <name>2</name>
-		  <url>http://3.128.180.195:8081/repository/My-Snapshot/</url>
+		  <url>http://18.220.146.246:8081/repository/My-Snapshot/</url>
 	      </snapshotRepository>
 	 </distributionManagement>
 	<name>simple-web-app</name>
